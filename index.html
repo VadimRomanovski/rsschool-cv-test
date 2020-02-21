@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Junior FRONTEND Developer (React)</h1>
+    </header>
+    <main class="main">
+        <section class="name">
+            <div>
+                <h2>1. First Name, Last Name</h2>
+            </div>
+            <div class="name__name-photo">
+                <div>
+                    <p><b>Vadim Romanovski</b></p>
+                </div>
+                <div>
+                    <img src="vadim.jpg" alt="Vadim">
+                </div>
+            </div>
+            
+        </section>
+        <section class="contact">
+            <h2>2. Contact Info</h2>
+            <p>e-mail : <a href="mailto:mr.vromanovski@gmail.com">mr.vromanovski@gmail.com;</a></p>
+        </section>
+        <section class="summary">
+            <h2>3. Summary</h2>
+            <p>I am very motivate to employee in Epam, ready for selfaducation</p>
+        </section>
+        <section class="skills">
+            <h2>4. Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__items">HTML5</li>
+                <li class="skills__items">CSS3</li>
+                <li class="skills__items">JavaScript</li>
+                <li class="skills__items">React</li>
+                <li class="skills__items">Redux</li>
+                <li class="skills__items">Git</li>
+                <li class="skills__items">Webpack</li>
+            </ul>
+        </section>
+        <section class="code-example">
+            <h2>5. Code examples</h2>
+            <code>
+                <pre>
+                    const deleteButton = document.querySelectorAll(".btn-danger");
+                        deleteButton.forEach((item, index) => {
+                            item.addEventListener("click", () => {
+                                array.splice(index, 1);
+                                drawTasks(array);
+                            });
+                </pre>
+            </code>
+        </section>
+        <section class="experience">
+            <h2>6. Experience</h2>
+            <p>There is some of my works:</p>
+            <dl class="experience__list">
+                <dt class="experience__item"><a href="https://vadimromanovski.github.io/contacts/index.html">Contact list application.</a></dt>
+                <dd>Each contact contains name and phone number. Above the list has input to filter contacts by name (without button, each input of the user affects list immediately). Each contact in the list has “remove” button which removes contact from the list. Below the list “Add contact” button. If you press this button the changed to “/new-contact”(w/o page reload) and form with two input(name, phone number) is displayed. Validation in place. If user fill the the form and confirm page got redirected back to contact list with new contact.</dd>
+                <dt class="experience__item"><a href="https://secondgithubforvadim.github.io/test/">RWD-Layaout.</a></dt>
+            </dl>
+        </section>
+        <section class="education">
+            <h2>7. Education</h2>
+            <dl class="education__list">
+                <dt class="education__item">BNTU</dt>
+                <dd>UNESCO energy efficiency department Master</dd>
+                <dt class="education__item">Myfreedom</dt>
+                <dd>Frontend development courses</dd>
+            </dl>
+        </section>
+        <section class="english">
+            <h2>8.English</h2>
+            <p>English level - A2</p>
+        </section>
+    </main>
+</body>
+</html>

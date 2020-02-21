@@ -1,0 +1,83 @@
+
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #4E4F53;
+	font-size: 15px;
+}
+
+section {
+    position: relative;
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1%;
+  }
+
+  header {
+    /* position: relative; */
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color:#B0B0B0;
+    height: 15vh;
+    padding: 1%;
+  }
+
+  pre{
+      background-color:#FFFAFA;
+  }
+
+  .name{
+      background-color: #E0E0E0;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .name__name-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .name__name-photo img{
+      width: 170px;
+      height: 200px;
+  }
+
+  .contact{
+      background-color: #F8F8F8;
+  }
+
+  .summary{
+    background-color: #E0E0E0;
+  }
+
+  .skills{
+    background-color: #F8F8F8;
+  }
+
+  .code-example{
+    background-color: #E0E0E0;
+  }
+
+  .experience{
+    background-color: #F8F8F8;
+  }
+
+  .education{
+    background-color: #E0E0E0;
+  }
+
+  .english{
+    background-color: #F8F8F8;
+  }
+
+  dd{
+      margin: 1%;
+  }
+
+  dt{
+      font-weight: bold;
+  }
